@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seandoyle/git/100Boxes/100BoxesCPP/BoxesSimulation.hpp
+
+/Users/seandoyle/git/100Boxes/100BoxesCPP/main.cpp
+iostream
+-
+BoxesSimulation.hpp
+/Users/seandoyle/git/100Boxes/100BoxesCPP/BoxesSimulation.hpp
+

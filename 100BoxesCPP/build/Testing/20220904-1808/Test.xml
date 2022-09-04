@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220904-1808-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.10.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="10-20-87-8.dynapool.wireless.nyu.edu"
+	OSRelease="12.5"
+	OSVersion="21G72"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="6"
+	ModelID="-1894967296"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="3072"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2400"
+	>
+	<Testing>
+		<StartDateTime>Sep 04 14:08 EDT</StartDateTime>
+		<StartTestTime>1662314923</StartTestTime>
+		<TestList>
+			<Test>./tests/100BoxesCPPTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>100BoxesCPPTests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/100BoxesCPPTests</FullName>
+			<FullCommandLine>/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests/100BoxesCPPTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.098089</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests/100BoxesCPPTests</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUEFugzAQvPsVewwHMHlAD20S5VC1RaQ5IVS5ZIOQ7N3IXtr094WAUKhUiTmNdkYz9uQtUUM1ONPQKoKzZwf6GNAHHdDQiX8s6roRvU7TJ75imMgmy3TNXFsUDHJPg6903bOPPjWpKlU8TCghHyvX0HuGypGHthFMVBFPKGFv+dPYQUf6ajyTQ+q8KHF7+WO+z9xdjbtYfO8OQRWQH1/hhnKmJFt0TEG8Edz3lxdTeQ5q9MDmJraVsO9CBrw9LwuBVQouRMueOJhBWIyN1LINBI2PT/xN84X/Wxa8oWTe030pezwcdtt+l8GbqF+8mKzJ====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 04 14:08 EDT</EndDateTime>
+		<EndTestTime>1662314924</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
