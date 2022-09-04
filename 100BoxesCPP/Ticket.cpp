@@ -6,6 +6,6 @@ Ticket::Ticket(int number) {
     m_ticketNumber = number;
 }
 
-int Ticket::getTicketNumber() {
+int Ticket::getTicketNumber() const{
     return m_ticketNumber;
 }

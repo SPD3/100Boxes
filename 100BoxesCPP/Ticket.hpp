@@ -5,7 +5,7 @@ class Ticket {
 public:
     Ticket(int number);
 
-    int getTicketNumber();
+    int getTicketNumber() const;
 
 private:
     int m_ticketNumber;
