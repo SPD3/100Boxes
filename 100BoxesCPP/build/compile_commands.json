@@ -38,5 +38,10 @@
   "directory": "/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests",
   "command": "/usr/bin/clang++   -isystem /Users/seandoyle/git/100Boxes/100BoxesCPP/googletest/googletest/include -isystem /Users/seandoyle/git/100Boxes/100BoxesCPP/googletest/googletest  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -std=c++1z -o CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp",
   "file": "/Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp"
+},
+{
+  "directory": "/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests",
+  "command": "/usr/bin/clang++   -isystem /Users/seandoyle/git/100Boxes/100BoxesCPP/googletest/googletest/include -isystem /Users/seandoyle/git/100Boxes/100BoxesCPP/googletest/googletest  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -std=c++1z -o CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/BoxesSimulationTests.cpp",
+  "file": "/Users/seandoyle/git/100Boxes/100BoxesCPP/tests/BoxesSimulationTests.cpp"
 }
 ]

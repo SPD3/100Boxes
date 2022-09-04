@@ -182,6 +182,33 @@ tests/CMakeFiles/100BoxesCPPTests.dir/rule:
 	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/build
 .PHONY : 100BoxesCPPTests/fast
 
+BoxesSimulationTests.o: BoxesSimulationTests.cpp.o
+
+.PHONY : BoxesSimulationTests.o
+
+# target to build an object file
+BoxesSimulationTests.cpp.o:
+	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o
+.PHONY : BoxesSimulationTests.cpp.o
+
+BoxesSimulationTests.i: BoxesSimulationTests.cpp.i
+
+.PHONY : BoxesSimulationTests.i
+
+# target to preprocess a source file
+BoxesSimulationTests.cpp.i:
+	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.i
+.PHONY : BoxesSimulationTests.cpp.i
+
+BoxesSimulationTests.s: BoxesSimulationTests.cpp.s
+
+.PHONY : BoxesSimulationTests.s
+
+# target to generate assembly for a file
+BoxesSimulationTests.cpp.s:
+	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.s
+.PHONY : BoxesSimulationTests.cpp.s
+
 ExampleTests.o: ExampleTests.cpp.o
 
 .PHONY : ExampleTests.o
@@ -223,6 +250,9 @@ help:
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... 100BoxesCPPTests"
+	@echo "... BoxesSimulationTests.o"
+	@echo "... BoxesSimulationTests.i"
+	@echo "... BoxesSimulationTests.s"
 	@echo "... ExampleTests.o"
 	@echo "... ExampleTests.i"
 	@echo "... ExampleTests.s"

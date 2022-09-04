@@ -368,7 +368,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/seandoyle/git/100Boxes/100BoxesCPP/BoxesSimulation.hpp
+
 /Users/seandoyle/git/100Boxes/100BoxesCPP/Example.hpp
+
+/Users/seandoyle/git/100Boxes/100BoxesCPP/tests/BoxesSimulationTests.cpp
+gtest/gtest.h
+-
+iostream
+-
+../BoxesSimulation.hpp
+/Users/seandoyle/git/100Boxes/100BoxesCPP/BoxesSimulation.hpp
 
 /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp
 gtest/gtest.h

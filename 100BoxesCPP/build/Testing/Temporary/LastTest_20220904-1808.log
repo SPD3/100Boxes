@@ -1,14 +1,14 @@
-Start testing: Sep 04 14:08 EDT
+Start testing: Sep 04 14:25 EDT
 ----------------------------------------------------------
 1/1 Testing: 100BoxesCPPTests
 1/1 Test: 100BoxesCPPTests
 Command: "/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests/100BoxesCPPTests"
 Directory: /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests
-"100BoxesCPPTests" start time: Sep 04 14:08 EDT
+"100BoxesCPPTests" start time: Sep 04 14:25 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /Users/seandoyle/git/100Boxes/100BoxesCPP/googletest/googletest/src/gtest_main.cc
-[==========] Running 1 test from 1 test suite.
+[==========] Running 2 tests from 2 test suites.
 [----------] Global test environment set-up.
 [----------] 1 test from ExampleTests
 [ RUN      ] ExampleTests.DemonstrateGTestMacros
@@ -16,15 +16,21 @@ Example Constructor
 [       OK ] ExampleTests.DemonstrateGTestMacros (0 ms)
 [----------] 1 test from ExampleTests (0 ms total)
 
+[----------] 1 test from BoxesSimulationTests
+[ RUN      ] BoxesSimulationTests.runningPrintout
+Running the Box Simulation!
+[       OK ] BoxesSimulationTests.runningPrintout (0 ms)
+[----------] 1 test from BoxesSimulationTests (0 ms total)
+
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
+[==========] 2 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 2 tests.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"100BoxesCPPTests" end time: Sep 04 14:08 EDT
+"100BoxesCPPTests" end time: Sep 04 14:25 EDT
 "100BoxesCPPTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 04 14:08 EDT
+End testing: Sep 04 14:25 EDT
