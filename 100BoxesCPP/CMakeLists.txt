@@ -17,10 +17,16 @@ add_subdirectory(googletest)
 
 set(Headers 
     BoxesSimulation.hpp
+    Box.hpp
+    Ticket.hpp
+    Player.hpp
 )
 
 set(Sources
     BoxesSimulation.cpp
+    Box.cpp 
+    Ticket.cpp 
+    Player.hpp
 )
 
 add_library(${LIBNAME} STATIC ${Sources} ${Headers})

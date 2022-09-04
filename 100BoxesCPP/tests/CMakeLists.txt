@@ -4,6 +4,9 @@ set(This 100BoxesCPPTests)
 
 set(Sources
     BoxesSimulationTests.cpp
+    BoxTests.cpp 
+    PlayerTests.cpp 
+    TicketTests.cpp 
 )
 
 add_executable(${This} ${Sources})
