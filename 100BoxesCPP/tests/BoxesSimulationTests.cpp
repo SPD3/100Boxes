@@ -14,3 +14,12 @@ TEST(BoxesSimulationTests, runningPrintout) {
     EXPECT_EQ(output, "Running the Box Simulation!\n");
 
 } 
+
+TEST(BoxesSimulationTests, createBoxes) {
+}
+
+TEST(BoxesSimulationTests, createPlayers) {
+
+}
+
+

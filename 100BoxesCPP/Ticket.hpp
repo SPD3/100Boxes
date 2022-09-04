@@ -3,5 +3,10 @@
 class Ticket {
 
 public:
-    Ticket();
+    Ticket(int number);
+
+    int getTicketNumber();
+
+private:
+    int m_ticketNumber;
 };
