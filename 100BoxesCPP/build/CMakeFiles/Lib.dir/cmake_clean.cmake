@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lib.dir/Example.cpp.o"
   "CMakeFiles/Lib.dir/BoxesSimulation.cpp.o"
   "libLib.pdb"
   "libLib.a"

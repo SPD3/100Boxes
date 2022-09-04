@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLib.a  CMakeFiles/Lib.dir/Example.cpp.o CMakeFiles/Lib.dir/BoxesSimulation.cpp.o
+/usr/bin/ar qc libLib.a  CMakeFiles/Lib.dir/BoxesSimulation.cpp.o
 /usr/bin/ranlib libLib.a

@@ -16,12 +16,10 @@ enable_testing()
 add_subdirectory(googletest)
 
 set(Headers 
-    Example.hpp
     BoxesSimulation.hpp
 )
 
 set(Sources
-    Example.cpp
     BoxesSimulation.cpp
 )
 

@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.10.0)
 set(This 100BoxesCPPTests)
 
 set(Sources
-    ExampleTests.cpp
     BoxesSimulationTests.cpp
 )
 

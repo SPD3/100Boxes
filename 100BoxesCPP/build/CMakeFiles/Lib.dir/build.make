@@ -57,33 +57,9 @@ include CMakeFiles/Lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lib.dir/flags.make
 
-CMakeFiles/Lib.dir/Example.cpp.o: CMakeFiles/Lib.dir/flags.make
-CMakeFiles/Lib.dir/Example.cpp.o: ../Example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lib.dir/Example.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lib.dir/Example.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/Example.cpp
-
-CMakeFiles/Lib.dir/Example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/Example.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seandoyle/git/100Boxes/100BoxesCPP/Example.cpp > CMakeFiles/Lib.dir/Example.cpp.i
-
-CMakeFiles/Lib.dir/Example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/Example.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seandoyle/git/100Boxes/100BoxesCPP/Example.cpp -o CMakeFiles/Lib.dir/Example.cpp.s
-
-CMakeFiles/Lib.dir/Example.cpp.o.requires:
-
-.PHONY : CMakeFiles/Lib.dir/Example.cpp.o.requires
-
-CMakeFiles/Lib.dir/Example.cpp.o.provides: CMakeFiles/Lib.dir/Example.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Example.cpp.o.provides.build
-.PHONY : CMakeFiles/Lib.dir/Example.cpp.o.provides
-
-CMakeFiles/Lib.dir/Example.cpp.o.provides.build: CMakeFiles/Lib.dir/Example.cpp.o
-
-
 CMakeFiles/Lib.dir/BoxesSimulation.cpp.o: CMakeFiles/Lib.dir/flags.make
 CMakeFiles/Lib.dir/BoxesSimulation.cpp.o: ../BoxesSimulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lib.dir/BoxesSimulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lib.dir/BoxesSimulation.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lib.dir/BoxesSimulation.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/BoxesSimulation.cpp
 
 CMakeFiles/Lib.dir/BoxesSimulation.cpp.i: cmake_force
@@ -107,17 +83,15 @@ CMakeFiles/Lib.dir/BoxesSimulation.cpp.o.provides.build: CMakeFiles/Lib.dir/Boxe
 
 # Object files for target Lib
 Lib_OBJECTS = \
-"CMakeFiles/Lib.dir/Example.cpp.o" \
 "CMakeFiles/Lib.dir/BoxesSimulation.cpp.o"
 
 # External object files for target Lib
 Lib_EXTERNAL_OBJECTS =
 
-libLib.a: CMakeFiles/Lib.dir/Example.cpp.o
 libLib.a: CMakeFiles/Lib.dir/BoxesSimulation.cpp.o
 libLib.a: CMakeFiles/Lib.dir/build.make
 libLib.a: CMakeFiles/Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -126,7 +100,6 @@ CMakeFiles/Lib.dir/build: libLib.a
 
 .PHONY : CMakeFiles/Lib.dir/build
 
-CMakeFiles/Lib.dir/requires: CMakeFiles/Lib.dir/Example.cpp.o.requires
 CMakeFiles/Lib.dir/requires: CMakeFiles/Lib.dir/BoxesSimulation.cpp.o.requires
 
 .PHONY : CMakeFiles/Lib.dir/requires

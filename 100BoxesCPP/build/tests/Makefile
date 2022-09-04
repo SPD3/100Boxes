@@ -209,33 +209,6 @@ BoxesSimulationTests.cpp.s:
 	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.s
 .PHONY : BoxesSimulationTests.cpp.s
 
-ExampleTests.o: ExampleTests.cpp.o
-
-.PHONY : ExampleTests.o
-
-# target to build an object file
-ExampleTests.cpp.o:
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o
-.PHONY : ExampleTests.cpp.o
-
-ExampleTests.i: ExampleTests.cpp.i
-
-.PHONY : ExampleTests.i
-
-# target to preprocess a source file
-ExampleTests.cpp.i:
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.i
-.PHONY : ExampleTests.cpp.i
-
-ExampleTests.s: ExampleTests.cpp.s
-
-.PHONY : ExampleTests.s
-
-# target to generate assembly for a file
-ExampleTests.cpp.s:
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build && $(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.s
-.PHONY : ExampleTests.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -253,9 +226,6 @@ help:
 	@echo "... BoxesSimulationTests.o"
 	@echo "... BoxesSimulationTests.i"
 	@echo "... BoxesSimulationTests.s"
-	@echo "... ExampleTests.o"
-	@echo "... ExampleTests.i"
-	@echo "... ExampleTests.s"
 .PHONY : help
 
 

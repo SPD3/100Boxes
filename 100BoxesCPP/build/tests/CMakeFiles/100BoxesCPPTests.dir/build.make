@@ -57,33 +57,9 @@ include tests/CMakeFiles/100BoxesCPPTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/100BoxesCPPTests.dir/flags.make
 
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o: tests/CMakeFiles/100BoxesCPPTests.dir/flags.make
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o: ../tests/ExampleTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o"
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp
-
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.i"
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp > CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.i
-
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.s"
-	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/ExampleTests.cpp -o CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.s
-
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.requires
-
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.provides: tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/100BoxesCPPTests.dir/build.make tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.provides
-
-tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.provides.build: tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o
-
-
 tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o: tests/CMakeFiles/100BoxesCPPTests.dir/flags.make
 tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o: ../tests/BoxesSimulationTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o"
 	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o -c /Users/seandoyle/git/100Boxes/100BoxesCPP/tests/BoxesSimulationTests.cpp
 
 tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.i: cmake_force
@@ -107,20 +83,18 @@ tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o.provides.build:
 
 # Object files for target 100BoxesCPPTests
 100BoxesCPPTests_OBJECTS = \
-"CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o" \
 "CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o"
 
 # External object files for target 100BoxesCPPTests
 100BoxesCPPTests_EXTERNAL_OBJECTS =
 
-tests/100BoxesCPPTests: tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o
 tests/100BoxesCPPTests: tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o
 tests/100BoxesCPPTests: tests/CMakeFiles/100BoxesCPPTests.dir/build.make
 tests/100BoxesCPPTests: lib/libgtest_main.a
 tests/100BoxesCPPTests: libLib.a
 tests/100BoxesCPPTests: lib/libgtest.a
 tests/100BoxesCPPTests: tests/CMakeFiles/100BoxesCPPTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 100BoxesCPPTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/seandoyle/git/100Boxes/100BoxesCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 100BoxesCPPTests"
 	cd /Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/100BoxesCPPTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,7 +102,6 @@ tests/CMakeFiles/100BoxesCPPTests.dir/build: tests/100BoxesCPPTests
 
 .PHONY : tests/CMakeFiles/100BoxesCPPTests.dir/build
 
-tests/CMakeFiles/100BoxesCPPTests.dir/requires: tests/CMakeFiles/100BoxesCPPTests.dir/ExampleTests.cpp.o.requires
 tests/CMakeFiles/100BoxesCPPTests.dir/requires: tests/CMakeFiles/100BoxesCPPTests.dir/BoxesSimulationTests.cpp.o.requires
 
 .PHONY : tests/CMakeFiles/100BoxesCPPTests.dir/requires

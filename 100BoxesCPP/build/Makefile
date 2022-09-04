@@ -285,33 +285,6 @@ BoxesSimulation.cpp.s:
 	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/BoxesSimulation.cpp.s
 .PHONY : BoxesSimulation.cpp.s
 
-Example.o: Example.cpp.o
-
-.PHONY : Example.o
-
-# target to build an object file
-Example.cpp.o:
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Example.cpp.o
-.PHONY : Example.cpp.o
-
-Example.i: Example.cpp.i
-
-.PHONY : Example.i
-
-# target to preprocess a source file
-Example.cpp.i:
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Example.cpp.i
-.PHONY : Example.cpp.i
-
-Example.s: Example.cpp.s
-
-.PHONY : Example.s
-
-# target to generate assembly for a file
-Example.cpp.s:
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Example.cpp.s
-.PHONY : Example.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -362,9 +335,6 @@ help:
 	@echo "... BoxesSimulation.o"
 	@echo "... BoxesSimulation.i"
 	@echo "... BoxesSimulation.s"
-	@echo "... Example.o"
-	@echo "... Example.i"
-	@echo "... Example.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
