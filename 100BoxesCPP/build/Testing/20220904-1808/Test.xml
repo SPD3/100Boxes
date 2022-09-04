@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2400"
 	>
 	<Testing>
-		<StartDateTime>Sep 04 14:25 EDT</StartDateTime>
-		<StartTestTime>1662315922</StartTestTime>
+		<StartDateTime>Sep 04 14:37 EDT</StartDateTime>
+		<StartTestTime>1662316674</StartTestTime>
 		<TestList>
 			<Test>./tests/100BoxesCPPTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests/100BoxesCPPTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0148351</Value>
+					<Value>0.0138261</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -48,12 +48,12 @@
 					<Value>/Users/seandoyle/git/100Boxes/100BoxesCPP/build/tests/100BoxesCPPTests</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNksFSwjAQhu95ivUGB1rw7kGB4eCoHZATwzixrDUzyS6TbBXf3qZBtA4oe8k2+fbf/pvMayJDFThtqNeHF88O8mVAH/KAmjb8YTGvjOSj4fCGdxgOybgo8oq5sigY5GcafJlXMXuKqllZqtXVIdYw37e8hMiE1DN9QKhNs2ZqNTjEGmaWn7VNANKb8UwOqYFRBvX2FzxKXCs63Wm3tfgY26gVzJf30Ma6c5JN0DEF8VpwFnfudOk5qD0D4/awLoV9I5Li4fY8EegNwYX+eb+YYBAWbfvqdE07/oVxtdVimI7YO0ZkPs298IaEa1Ff9yCvGAvgm7/o+jxH7V+jx0T+Mnzq0gW1H2z4nbqP6vRjAq8p63Zq3BXXi8V0Eme1r8zUJxtF/yk=</Value>
+					<Value encoding="base64" compression="gzip">eJyVUMtqwzAQvPsr9hgfLDkf0ENf9FBojN2cjCmqszUCeTdIqz7+vnYUTFJaSOc0sDO7s1NHIksDjMbSKoc3zyPobUAfdEBDO/5yqAcrel2WN/yJYSG3VaUH5sGhYJBTGnyvh5m9zFtV32ft1YIO6uPJNcyadPLIQ7SCKmuLBR08OH41Ls2R3q1nGpEmLUoR9z/EpzsPKRs7RmfEMj1Pg5C1UG+f4IDuV4XyKV7lLQlHmRwJm8cLHbAqYQz5/4IlEwiLcXl2WQOCxhc7/qDzfv/qFbwhdX5n+q26bpr7u7mNpFXZN6kerb0=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Sep 04 14:25 EDT</EndDateTime>
-		<EndTestTime>1662315922</EndTestTime>
+		<EndDateTime>Sep 04 14:37 EDT</EndDateTime>
+		<EndTestTime>1662316674</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
