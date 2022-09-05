@@ -26,7 +26,7 @@ set(Sources
     BoxesSimulation.cpp
     Box.cpp 
     Ticket.cpp 
-    Player.hpp
+    Player.cpp
 )
 
 add_library(${LIBNAME} STATIC ${Sources} ${Headers})
