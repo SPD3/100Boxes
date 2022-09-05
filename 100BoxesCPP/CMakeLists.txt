@@ -20,6 +20,8 @@ set(Headers
     Box.hpp
     Ticket.hpp
     Player.hpp
+    StrategyBase.hpp
+    CycleStrategy.hpp
 )
 
 set(Sources
@@ -27,6 +29,7 @@ set(Sources
     Box.cpp 
     Ticket.cpp 
     Player.cpp
+    CycleStrategy.cpp
 )
 
 add_library(${LIBNAME} STATIC ${Sources} ${Headers})

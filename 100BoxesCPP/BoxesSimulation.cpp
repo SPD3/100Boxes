@@ -9,7 +9,7 @@
 
 using namespace std;
 
-BoxesSimulation::BoxesSimulation() {
+BoxesSimulation::BoxesSimulation(StrategyBase& strategy) : m_strategy{strategy}{
     createBoxes();
     createPlayers();
     randomlyAssignTicketsToBoxes();
@@ -24,8 +24,35 @@ BoxesSimulation::~BoxesSimulation() {
     }
 }
 
-void BoxesSimulation::run() {
+bool BoxesSimulation::run() {
     cout << "Running the Box Simulation!" << endl;
+    for(Player* player : m_players) {
+        m_strategy.resetForNewPlayer(player->getNumber());
+        for(int i = 0; i < 50; ++i) {
+            int nextBoxNumber = m_strategy.getNextBox();
+            Box* nextBox = getBoxByNumber(nextBoxNumber);
+            if (nextBox->getTicketNumber() == player->getNumber()) {
+                player->setFoundTicket(true);
+            }
+            m_strategy.reportTicketFoundInBox(nextBox->getTicketNumber());
+        }
+    }
+    for(Player* player : m_players) {
+        if(!player->hasRightTicket()) {
+            return false;
+        }
+    }
+    return true;
+}
+
+Box* BoxesSimulation::getBoxByNumber(int boxNumber) {
+    for(Box* box : m_boxes) {
+        if(box->getTicketNumber() == boxNumber) {
+            return box;
+        }
+    }
+
+    return nullptr;
 }
 
 void BoxesSimulation::createBoxes() {
@@ -45,7 +72,7 @@ void BoxesSimulation::randomlyAssignTicketsToBoxes () {
     shuffle(m_boxes.begin(), m_boxes.end(), default_random_engine(seed));
     for(int i = 0; i<100; ++i) {
         Ticket* ticket = new Ticket(i);
-        boxes[i].giveTicket(ticket)
+        m_boxes[i]->giveTicket(ticket);
     }
 }
 

@@ -3,15 +3,16 @@
 #include "Player.hpp"
 #include <iostream>
 #include <vector>
+#include "StrategyBase.hpp"
 
 class BoxesSimulation {
 
 public:
-    BoxesSimulation();
+    BoxesSimulation(StrategyBase& strategy);
 
     ~BoxesSimulation();
 
-    void run();
+    bool run();
     
 private:
     void createBoxes();
@@ -20,7 +21,11 @@ private:
 
     void randomlyAssignTicketsToBoxes();
 
+    Box* getBoxByNumber(int boxNumber);
+
     std::vector<Box*> m_boxes;
 
     std::vector<Player*> m_players;
+
+    StrategyBase& m_strategy;
 };

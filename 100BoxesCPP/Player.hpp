@@ -9,11 +9,11 @@ public:
 
     int getNumber() const;
 
-    void setTicket(Ticket* ticket);
+    void setFoundTicket(bool foundTicket);
 
-    bool hasRightTicket();
+    bool hasRightTicket() const;
 
 private:
     int m_number;
-    Ticket* m_ticket;
+    bool m_foundTicket;
 };

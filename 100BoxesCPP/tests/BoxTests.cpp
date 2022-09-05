@@ -33,16 +33,6 @@ TEST(BoxTests, ticketNumberFromBox) {
 
 }
 
-TEST(BoxTests, takeTicketFromBox) {
-    Ticket* ticket = new Ticket(3);
-    Box box(2, ticket);
-
-    EXPECT_EQ(box.takeTicket(), ticket);
-    EXPECT_FALSE(box.hasTicket());
-    delete ticket;
-
-}
-
 TEST(BoxTests, giveTicketToBox) {
     Ticket* ticket = new Ticket(3);
     Box box(2);

@@ -9,16 +9,10 @@ TEST(PlayerTests, createPlayer) {
     EXPECT_EQ(player.getNumber(), 1);
 }
 
-TEST(PlayerTests, setTicket) {
+TEST(PlayerTests, setFoundTicket) {
     Player player(1);
     EXPECT_FALSE(player.hasRightTicket());
 
-    Ticket* ticket = new Ticket(3);
-    player.setTicket(ticket);
-    EXPECT_FALSE(player.hasRightTicket());
-
-    ticket = new Ticket(1);
-    player.setTicket(ticket);
+    player.setFoundTicket(true);
     EXPECT_TRUE(player.hasRightTicket());
-
 }

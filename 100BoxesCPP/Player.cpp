@@ -2,31 +2,21 @@
 #include <iostream>
 using namespace std;
 
-Player::Player(int number) {
+Player::Player(int number) : m_foundTicket{false} {
     m_number = number;
-    m_ticket = nullptr;
 }
 
 Player::~Player() {
-    if(m_ticket) {
-        delete m_ticket;
-    }
 }
 
 int Player::getNumber() const {
     return m_number;
 }
 
-void Player::setTicket(Ticket* ticket) {
-    if (m_ticket) {
-        delete m_ticket;
-    }
-    m_ticket = ticket;
+void Player::setFoundTicket(bool foundTicket) {
+    m_foundTicket = foundTicket;
 }
 
-bool Player::hasRightTicket() {
-    if(m_ticket) {
-        return m_ticket->getTicketNumber() == m_number;
-    }
-    return false;
+bool Player::hasRightTicket() const{
+    return m_foundTicket;
 }

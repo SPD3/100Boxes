@@ -13,8 +13,6 @@ public:
 
     int getTicketNumber() const;
 
-    Ticket* takeTicket();
-
     void giveTicket(Ticket* ticket);
 
 private:

@@ -25,12 +25,6 @@ int Box::getTicketNumber() const {
     return m_ticket->getTicketNumber();
 }
 
-Ticket* Box::takeTicket() {
-    Ticket* returnVal = m_ticket;
-    m_ticket = nullptr;
-    return returnVal;
-}
-
 void Box::giveTicket(Ticket* ticket) {
     if(m_ticket) {
         delete m_ticket;
