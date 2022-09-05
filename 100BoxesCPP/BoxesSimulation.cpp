@@ -3,26 +3,24 @@
 #include "Box.hpp"
 #include "Player.hpp"
 #include <list>
+#include <algorithm>    // std::shuffle
+#include <random>       // std::default_random_engine
+#include <chrono>
 
 using namespace std;
 
-BoxesSimulation() {
+BoxesSimulation::BoxesSimulation() {
     createBoxes();
     createPlayers();
     randomlyAssignTicketsToBoxes();
 }
 
-~BoxesSimulation() {
-    for(size_t i = 0; i < boxes.size(); ++i) {
-        if(boxes[i]){
-            delete boxes[i];
-        }
+BoxesSimulation::~BoxesSimulation() {
+    for(Box* box : m_boxes) {
+        delete box;
     }
-
-    for(size_t i = 0; i < players.size(); ++i) {
-        if(players[i]){
-            delete players[i]; 
-        }
+    for(Player* player : m_players) {
+        delete player;
     }
 }
 
@@ -32,21 +30,22 @@ void BoxesSimulation::run() {
 
 void BoxesSimulation::createBoxes() {
     for(int i = 0; i<100; ++i) {
-        m_boxes.append(new Box(i));
+        m_boxes.push_back(new Box(i));
     }
 }
 
 void BoxesSimulation::createPlayers() {
     for(int i = 0; i<100; ++i) {
-        m_players.append(new Player(i));
+        m_players.push_back(new Player(i));
     }
 }
 
 void BoxesSimulation::randomlyAssignTicketsToBoxes () {
-    shuffle(boxes.begin(), boxes.end())
+    unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+    shuffle(m_boxes.begin(), m_boxes.end(), default_random_engine(seed));
     for(int i = 0; i<100; ++i) {
-        //Ticket* ticket = new Ticket(i);
-        //boxes[i].
+        Ticket* ticket = new Ticket(i);
+        boxes[i].giveTicket(ticket)
     }
 }
 

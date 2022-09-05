@@ -2,7 +2,7 @@
 #include "Box.hpp"
 #include "Player.hpp"
 #include <iostream>
-#include <list>
+#include <vector>
 
 class BoxesSimulation {
 
@@ -20,7 +20,7 @@ private:
 
     void randomlyAssignTicketsToBoxes();
 
-    std::list<Box*> boxes;
+    std::vector<Box*> m_boxes;
 
-    std::list<Player*> players;
+    std::vector<Player*> m_players;
 };

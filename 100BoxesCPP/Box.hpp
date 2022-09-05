@@ -15,6 +15,8 @@ public:
 
     Ticket* takeTicket();
 
+    void giveTicket(Ticket* ticket);
+
 private:
     int m_boxNumber;
     Ticket* m_ticket;

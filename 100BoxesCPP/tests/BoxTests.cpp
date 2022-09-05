@@ -43,3 +43,12 @@ TEST(BoxTests, takeTicketFromBox) {
 
 }
 
+TEST(BoxTests, giveTicketToBox) {
+    Ticket* ticket = new Ticket(3);
+    Box box(2);
+    box.giveTicket(ticket);
+
+    EXPECT_EQ(box.getTicketNumber(), 3);
+
+}
+

@@ -30,3 +30,10 @@ Ticket* Box::takeTicket() {
     m_ticket = nullptr;
     return returnVal;
 }
+
+void Box::giveTicket(Ticket* ticket) {
+    if(m_ticket) {
+        delete m_ticket;
+    }
+    m_ticket = ticket;
+}
