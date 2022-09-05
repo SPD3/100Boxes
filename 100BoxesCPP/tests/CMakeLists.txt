@@ -7,6 +7,7 @@ set(Sources
     BoxTests.cpp 
     PlayerTests.cpp 
     TicketTests.cpp 
+    CycleStrategyTests.cpp
 )
 
 add_executable(${This} ${Sources})

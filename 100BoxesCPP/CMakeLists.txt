@@ -29,6 +29,7 @@ set(Sources
     Box.cpp 
     Ticket.cpp 
     Player.cpp
+    StrategyBase.cpp
     CycleStrategy.cpp
 )
 

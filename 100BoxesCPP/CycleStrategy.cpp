@@ -3,13 +3,13 @@
 using namespace std;
 
 void CycleStrategy::resetForNewPlayer(int newPlayerNumber) {
-
+    m_nextBoxNumber = newPlayerNumber;
 }
 
 int CycleStrategy::getNextBox() {
-    return 0;
+    return m_nextBoxNumber;
 }
 
 void CycleStrategy::reportTicketFoundInBox(int ticketNumber) {
-
+    m_nextBoxNumber = ticketNumber;
 }

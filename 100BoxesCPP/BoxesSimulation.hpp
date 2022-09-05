@@ -21,6 +21,8 @@ private:
 
     void randomlyAssignTicketsToBoxes();
 
+    void resetPlayers();
+
     Box* getBoxByNumber(int boxNumber);
 
     std::vector<Box*> m_boxes;
