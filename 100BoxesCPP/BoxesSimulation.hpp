@@ -7,9 +7,20 @@
 class BoxesSimulation {
 
 public:
+    BoxesSimulation();
+
+    ~BoxesSimulation();
+
     void run();
     
-    std::list<Box> createBoxes();
+private:
+    void createBoxes();
 
-    std::list<Player> createPlayers();
+    void createPlayers();
+
+    void randomlyAssignTicketsToBoxes();
+
+    std::list<Box*> boxes;
+
+    std::list<Player*> players;
 };

@@ -15,11 +15,3 @@ TEST(BoxesSimulationTests, runningPrintout) {
 
 } 
 
-TEST(BoxesSimulationTests, createBoxes) {
-}
-
-TEST(BoxesSimulationTests, createPlayers) {
-
-}
-
-
